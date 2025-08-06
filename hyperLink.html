@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!-- Head section containing metadata and links to stylesheets -->
+  <head>
+    <!-- Meta tags for SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WLoC - A collection of posts about various topics including music, art, and more.">
+    <meta name="keywords" content="WLoC, music, posts, Lauren Aquilina, You Can Be King Again">
+    <meta name="author" content="WLoC Team">
+
+    <!-- Link to external CSS file -->
+		<link rel="stylesheet" text= "text/css" href="styles.css">
+
+    <!-- Preconnect to Google Fonts for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lexend+Giga:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Icon -->
+    <link rel="icon" href="/My_HTML/WLoC_ver1/HTML_Images/WLoC/Version - 2.4 (white).png" type="image/png">
+
+    <!-- Title of the webpage -->
+    <title>WLoC</title>
+
+  </head>
+
+  <body>
+    
+    <header class="header">
+      <div class="logo_title_and_navigation">
+        <!-- Header section with logo and title -->
+        <img class="logo_icon" src="/My_HTML/WLoC_ver1/HTML_Images/WLoC/Version - 2.4 (pastle blue).png" alt="WLoC Logo" style="width:80px;height:80px;">
+        <h1 class="webpage_title">
+          WLoC
+          <span class="webpage_title_description">Programming</span>
+        </h1>
+        
+        <!-- Div for Webpage's Navigation -->
+        <div class="webpage_navigation">
+          <!-- Navigation section with links to different sections of the page -->
+          <nav class="nav_links">
+            <a class="nav_link" href="#home">Home</a>
+            <a class="nav_link" href="#posts">Posts</a>
+            <a class="nav_link" href="#contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+      
+      <!-- Webpage subtitle: introduction to WLoC -->
+      <h2 class="webpage_subtitle">WLoC: With the Line of Codes</h2>
+      <!-- Description of WLoC -->
+      <p class="webpage_subtitle_description">
+        WLoC stands for "With the Line of Codes", a platform where you can find various posts about different topics including music, art, and more. 
+        Bascically, it is a collection of posts that I have written over time. 
+        After all, I am a human being and I have my own interests and hobbies. 
+        So, I thought why not share them with the world? 
+        However, I am not a professional writer, that is why I decided to share my thoughts and ideas in a more unique way. 
+        That is with the codes, which I learn from certain programming languages and concepts.
+        And then, I create contents, designs, webpages. 
+        All with the lessons I have learn so far and I will try my best to make them interesting and informative. 
+        In a meaningful way, I am sharing my journey of learning and exploring the world of programming and web development. 
+        So, are you ready to join me on this journey? 
+        Let's explore the world of WLoC together!
+      </p>
+
+      <!-- Topics covered in WLoC -->
+      <ul class="webpage_subtitle_topics">Topics Covered:
+        <li>Music</li>
+        <li>Art</li>
+        <li>And more...</li>
+      </ul>
+    </header>
+
+    <main>
+      <section>
+        <!-- Blog post about the song "King" -->
+        <article>
+          <h2 id="posts" class="post1">You Can Be King Again (2025)</h2>
+          <p class="post1_content">
+            This is a post about the song "King" by 
+            <a href="https://genius.com/artists/Lauren-aquilina" style="color: lightcoral;">
+              <i>
+                Lauren Aquilina
+              </i>
+            </a>. 
+            The song is about resilience and the ability to rise again after facing challenges. 
+            Plus, it encourages listeners to embrace their strength and potential.
+            The lyrics are powerful and the melody is uplifting, making it a perfect anthem for anyone who has ever felt down or defeated.
+            The song's message is clear: no matter how many times you fall, you can always get back up and reclaim your power.
+            The song is a reminder that we all have the strength to overcome obstacles and emerge stronger than before.
+            It is a call to action for anyone who has ever felt lost or defeated, encouraging them to rise up and take control of their life again.
+            For this reasons, I have decided to share this song with you all.
+            I hope you find it as inspiring and uplifting as I do.
+          </p>
+        </article>
+
+        <!-- Embedding the song image -->
+        <h2 class="post1_subsection">
+          Image
+        </h2>
+        <!-- Image source -->
+        <figure>
+          <img class="image" src="/My_HTML/WLoC_ver1/HTML_Images/King/PNG/kingAgain.png"/>
+          <!-- Image caption -->
+          <figcaption class="figcaption1">
+            [You Can Be King Again]
+          </figcaption>
+        </figure>
+
+        <!-- Embedding the song audio -->
+        <h2 class="post1_subsection">
+          Audio
+        </h2>
+        <!-- Audio source -->
+            <audio controls class="audio_player" id="lyricsAudio">
+          <source src="/My_HTML/WLoC_ver1/HTML_Audios/03 King.mp3" type="audio/mp3">
+        </audio>
+        <!-- Audio caption -->
+        <figcaption class="figcaption1">
+          [You Can Be King Again Audio]
+        </figcaption>
+
+        <!-- Adding a drop-down for the lyrics -->
+        <h2 class="post1_subsection">
+          Lyrics
+        </h2>
+        <details class="lyrics_dropdown">
+          <summary>Show Lyrics</summary>
+          <div class="lyrics_scroll" id="lyricsScroll">
+            <pre id="lyricsPre">King by Lauren Aquilina
+
+            [Verse 1]
+            You're alone, you're on your own, so what?
+            Have you gone blind?
+            Have you forgotten what you have and what is yours?
+            Glass half empty, glass half full
+            Well, either way, you won't be going thirsty
+            Count your blessings, not your flaws
+
+            [Chorus]
+            You've got it all
+            You lost your mind in the sound
+            There's so much more
+            You can reclaim your crown
+            You're in control
+            Rid of the monsters inside your head
+            Put all your faults to bed
+            You can be king again
+
+            [Verse 2]
+            You don't get what all this is about
+            You're too wrapped up in your self-doubt
+            You've got that young blood, set it free
+
+            [Chorus]
+            You've got it all
+            You lost your mind in the sound
+            There's so much more
+            You can reclaim your crown
+            You're in control
+            Rid of the monsters inside your head
+            Put all your faults to bed
+            You can be king
+            
+            [Bridge]
+            There's method in my madness
+            There's no logic in your sadness
+            You don't gain a single thing from misery
+            Take it from me
+
+            [Chorus]
+            You've got it all
+            You lost your mind in the sound
+            There's so much more
+            You can reclaim your crown
+            You're in control
+            Rid of the monsters inside your head
+            Put all your faults to bed
+            You can be king
+            You've got it all
+            You lost your mind in the sound
+            There's so much more
+            You can reclaim your crown
+            You're in control
+            Rid of the monsters inside your head
+            Put all your faults to bed
+            You can be king again
+            </pre>
+          </div>
+        </details>
+
+        <!-- Adding a brief description of the song -->
+        <aside>
+          <p class="post1_content">
+            The song's chorus is particularly inspiring, with lyrics that resonate deeply with anyone who has faced adversity. 
+            It reminds us that no matter how many times we fall, we have the strength to rise again and reclaim our power. 
+            The lyrics are both uplifting and inspiring, making it a perfect addition to any playlist focused on motivation and resilience.
+          </p> 
+        </aside>
+
+        <!-- Embedding a video related to the song -->
+        <h2 class="post1_subsection">
+          Video
+        </h2>
+        <!-- Video source -->
+        <video class="video" src="/My_HTML/WLoC_ver1/HTML_Videos/You_Can_Be_King_Again_(1min28s).mp4" controls>
+        </video>
+        <!-- Video caption -->
+        <figcaption class="figcaption1">
+          [You Can Be King Again Video]
+        </figcaption>
+
+        <!-- Embedding a GIF related to the song -->
+        <h2 class="post1_subsection">
+          GIF
+        </h2>
+        <!-- GIF source -->
+        <embed class="gif" src="/My_HTML/WLoC_ver1/HTML_Images/King/GIF/kingAgain.gif"/>
+        <!-- GIF caption -->
+        <figcaption class="figcaption1">
+          [You Can Be King Again GIF]
+        </figcaption>
+
+      </section>
+
+    </main>
+    
+    <footer>
+      <div class="footer_div">
+        <div class="contact_by_email">
+          <!-- Contact Information -->
+          <h3 id="contact">Contact Me</h3>
+          <!-- Div for Email -->
+          <div class="email_div">
+            <!-- Email Icon -->
+            <svg class="email_icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" href="mailto:aks222tritwo@gmail.com">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+            <!-- Email Address -->
+            <span class="email_address">aks222tritwo@gmail.com</span>
+          </div>
+        </div>
+        
+        <!-- Social Media Links -->
+        <div class="socialMedia">
+          <h3 id="socialMedia">Follow Me</h3>
+          <div class="socialMedia_links">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/share/1Lr8edpRYu/">
+              <!-- Facebook Icon -->
+              <svg class="facebook_icon" fill="blue" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"></path>
+              </svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/aungkaungsan002/?utm_source=ig_web_button_share_sheet">
+              <!-- Instagram Icon -->
+              <svg class="instagram_icon" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3.25a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5.25.75a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+              </svg>
+            </a>
+            <!-- GitHub -->
+            <a href="https://alpha-zero022.github.io/aung_kaung_san_website/?fbclid=IwQ0xDSwL8UhxjbGNrAvxSEWV4dG4DYWVtAjExAAEeLaXWyEbFe0UBD0cTHLB79jzww0IA754xnliDK3aG8v4b_D5PtXmWsqXhjeU_aem_t0PKDffoTa0nUi0UEnGzGA">
+              <!-- GitHub Icon -->
+              <svg class="github_icon" fill="violet" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"></path>
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="#">
+              <!-- LinkedIn Icon -->
+              <svg class="linkedin_icon" fill="skyblue" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright Information -->
+      <p class="copyright">&copy; 2025 WLoC. All rights reserved.</p>
+    </footer>
+              
+  </body>
+
+    <script src="/My_HTML/WLoC_ver1/script.js"></script>
+
+</html>

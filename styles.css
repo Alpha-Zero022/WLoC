@@ -1,0 +1,432 @@
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #000000;
+  color: #96aaff;
+  margin: 25px;
+  padding: 0;
+}
+
+.webpage_title {
+  display:inline-block;
+  text-align: center;
+  font-size: 2em;
+  color: #96aaff;
+  vertical-align: middle;
+  margin: 20px;
+}
+
+.webpage_title .webpage_title_description {
+  display: block;      /* Makes the span appear on a new line */
+  font-size: 12px;    /* Adjust size as needed */
+  justify-content: space-evenly;
+  color: #82f4d5;         /* Optional: makes it look like a subtitle */
+  margin-top: 0px;     /* Space between title and description */
+}
+
+.logo_title_and_navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px; /* space between items */
+}
+
+.webpage_navigation {
+  margin: 0;
+  background-color: transparent;
+  padding: 8px 0px;
+}
+
+.nav_links, .nav_link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 12px;
+  background-color: transparent;
+  padding: 10px;
+  margin: 2px 0px;
+  background: none;
+  color: #96aaff;
+  text-decoration: none;
+  border-style: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav_links, .nav_link {
+  font-size: 1.2em;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.nav_links {
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;border-left: #bbff96 2px solid;
+
+}
+.nav_links:hover, .nav_link:hover {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #defc32;
+  cursor: pointer;
+}
+
+.nav_links:hover {
+  background-color: #96a9ff52;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+
+.webpage_subtitle {
+  text-align: justify;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.3em;
+  color: #5fe3f1;
+  margin: 20px;
+}
+
+.webpage_subtitle_description {
+  text-align: left;
+  font-size: 0.95em;
+  color: #96fff1;
+  margin: 20px;
+}
+
+.webpage_subtitle_topics {
+  text-align: left;
+  font-size: 1em;
+  color: #edff96;
+  margin: 20px;
+}
+
+.logo_icon {
+  /*display: inline-block;*/
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  vertical-align: middle;
+  border-radius: 50%;
+}  
+
+.logo_icon:hover {
+  cursor: pointer;  
+  box-shadow: 0 2px 5px rgba(92, 85, 222, 0.596);
+}
+
+.logo_icon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.logo_icon:hover {
+  transform: scale(1.1); /* Slightly enlarge the image on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.webpage_title {
+  margin: auto;
+  padding: 20px 15px;
+  /*
+  background-color: coral;
+  border-style: solid;
+  border-color: rgb(178, 90, 57);
+  border-radius: 12px;
+  */
+  text-align: center;
+}
+
+.webpage_title:hover {
+  cursor: pointer;
+  color: #96ffc9;
+}
+
+.webpage_title_description:hover {
+  display: block;      /* Makes the span appear on a new line */
+  font-size: 12px;    /* Adjust size as needed */
+  justify-content: space-evenly;
+  color: #eef482;         /* Optional: makes it look like a subtitle */
+  margin-top: 0px;     /* Space between title and description */
+}
+
+.post1 {
+  margin: auto;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.post1 {
+  margin: auto;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+}
+
+.post1:hover {
+  cursor: pointer;
+  color: #96ffe5;
+}
+
+.post1_subsection {
+  margin: auto;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(157, 234, 115);
+  font-size: 1.2em;
+}
+
+.post1_content {
+  margin: auto;
+  padding: 10px 15px;
+  text-align: justify;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.9em;
+}
+
+.figcaption1 {
+  text-align: center;
+  font-size: 0.8em;
+  color: #96ffe5;
+  margin: 10px;
+}
+
+.figcaption1:hover {
+  color: #f5ef8a;
+  cursor: pointer;
+}
+
+.about {
+  margin: 10px 12px;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.video {
+  width: 100%;
+  /* height: 100%; */
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.audio_player {
+  width: 98%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.audio_player:hover {
+  width: 100%;
+  cursor: pointer;
+  border: 3px solid #fbff96;
+  border-radius: 30px;
+}
+
+.image, .gif {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_by_email, .socialMedia {
+  flex: 1 1 300px;              /* Allow both to grow/shrink, min width 300px */
+  max-width: 400px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #94b9f9;
+  background-color:#232a4d76;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(50, 113, 249, 0.504);
+  margin: 10px 0;
+}
+
+.email_div {
+  display: inline-flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-evenly;
+}
+
+.email_icon:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(50, 113, 249, 0.504);
+}
+
+.email_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.email_address {
+  color: #ffffff;
+  font-size: 0.7em;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.facebook_icon, .instagram_icon, .github_icon, .linkedin_icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.facebook_icon:hover, .github_icon:hover {
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 0 1px 10px rgba(249, 246, 50, 0.504);
+  border-radius: 50%;
+}
+
+.instagram_icon:hover, .linkedin_icon:hover {
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 0 1px 10px rgba(133, 50, 249, 0.504);
+  border-radius: 28%;
+}
+
+.contact_by_email {
+  align-self: center;
+  justify-self: left;
+  margin: 10px;
+}
+
+.socialMedia {
+ align-self: center;
+ justify-self: right;
+ margin: 10px;
+}
+
+.socialMedia_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 16px; /* space between icons */
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.8em;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  background-color: #233ce6;
+  padding: 10px;
+  border-radius: 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;      /* Center the content horizontally */
+  align-items: flex-start;      /* Align items to the top */
+  gap: 40px;                    /* Space between contact and social media */
+  padding: 20px 0;
+  flex-wrap: wrap;              /* Responsive: stack on small screens */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title_and_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.h3#contact {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* --- Lyrics Auto-Scroll Section --- */
+.lyrics_dropdown {
+  margin: 20px 0;
+  background: #181c2b;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(80, 120, 255, 0.12);
+  padding: 10px 16px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1em;
+  color: #e6f7ff;
+  border: 1px solid #2a3550;
+}
+
+.lyrics_dropdown summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #96aaff;
+  outline: none;
+  padding: 4px 0;
+}
+
+.lyrics_dropdown[open] summary {
+  color: #5fe3f1;
+}
+
+.lyrics_dropdown pre {
+  margin: 12px 0 0 0;
+  white-space: pre-wrap;
+  font-family: inherit;
+  background: none;
+  color: #e6f7ff;
+  border: none;
+  padding: 0;
+}
+
+.lyrics_scroll {
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.lyrics_scroll pre {
+  margin: 0;
+  padding: 0 10px;
+  font-family: inherit;
+  color: #e6f7ff;
+  background: none;
+  border: none;
+  display: inline-block;
+  min-width: 100%;
+  will-change: transform;
+  animation: none;
+}
+
+@keyframes scroll-lyrics-dynamic {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.lyrics_dropdown:not([open]) .lyrics_scroll pre {
+  animation-play-state: paused !important;
+  transform: translateY(100%) !important;
+}
+
+.lyrics_scroll pre:hover {
+  animation-play-state: paused !important;
+}
